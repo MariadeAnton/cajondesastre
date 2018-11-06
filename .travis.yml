@@ -1,13 +1,6 @@
-language: go
+language: bash
 dist: xenial
 
 install: true
-addons:
-  apt:
-    sources:
-    - deadsnakes
-    - ppa:chris-lea/redis-server
-    packages:
-    - redis-tools
-    - redis-server
+
 script: echo hello
